@@ -155,12 +155,17 @@ retail-sales-forecasting/
 
 │   ├── model_training.ipynb
 │
+
 ├── sql/
 
-│   ├── database_schema.sql
+│   
+├── database_schema.sql
 │
+
 ├── powerbi/
 
-│   ├── retail_forecasting_dashboard.pbix
+│   
+├── retail_forecasting_dashboard.pbix
 │
+
 ├── README.md
