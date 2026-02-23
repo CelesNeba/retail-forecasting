@@ -137,16 +137,19 @@ This dataset is commonly used for time-series forecasting challenges.
 
 
 
-7️⃣ Project Structure
+7️⃣ Project structure
+
 retail-sales-forecasting/
 │
 ├── data/
-│   ├── raw_data.csv
+│   
+├── raw_data.csv
 
 │   ├── cleaned_data.csv
 │
 ├── notebooks/
-│   ├── data_preprocessing.ipynb
+│   
+├── data_preprocessing.ipynb
 
 │   ├── feature_engineering.ipynb
 
