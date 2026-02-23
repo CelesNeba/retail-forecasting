@@ -140,32 +140,33 @@ This dataset is commonly used for time-series forecasting challenges.
 7️⃣ Project structure
 
 retail-sales-forecasting/
+
 │
 ├── data/
 │   
 ├── raw_data.csv
 
 │   ├── cleaned_data.csv
-│
+
+
 ├── notebooks/
 │   
 ├── data_preprocessing.ipynb
 
-│   ├── feature_engineering.ipynb
+│ 
+├── feature_engineering.ipynb
 
 │   ├── model_training.ipynb
 │
 
 ├── sql/
-
 │   
 ├── database_schema.sql
 │
 
 ├── powerbi/
 
-│   
-├── retail_forecasting_dashboard.pbix
+│   ├── retail_forecasting_dashboard.pbix
 │
 
 ├── README.md
