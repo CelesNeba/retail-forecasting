@@ -74,3 +74,90 @@ Follow these steps to reproduce the entire workflow, from raw data to interactiv
 
 git clone https://github.com/<your-username>/retail-sales-forecasting.git
 cd retail-sales-forecasting
+
+#### This will give you access to all folders:
+
+- data → raw and cleaned datasets
+
+- notebooks → preprocessing, feature engineering, model training
+
+- sql → database schema
+
+- Power BI → final Power BI dashboard
+
+ ### **Step 1:  Set up Python environment**
+
+- Install Python 3.9+
+
+- Create a virtual environment
+- Install required packages:
+- requirements.txt
+- Prepare database
+- Run schema script:
+- Preprocess and clean the data
+- Feature engineering
+- Train the forecasting model
+- Export to Power BI
+
+5️⃣ Tools & technologies used
+
+1. Python
+
+2. Pandas
+
+3. NumPy
+
+3. XGBoost
+
+4. MySQL
+
+5. Power BI
+
+6. DAX
+
+7. Git & GitHub
+
+6️⃣ Dataset
+
+The dataset used is based on historical sales data from Rossmann stores.
+
+It includes:
+
+- Store ID
+
+- Date
+
+- Daily Sales
+
+- Promotional indicators
+
+- Operational features
+
+This dataset is commonly used for time-series forecasting challenges.
+
+
+
+7️⃣ Project Structure
+retail-sales-forecasting/
+│
+├── data/
+│   ├── raw_data.csv
+
+│   ├── cleaned_data.csv
+│
+├── notebooks/
+│   ├── data_preprocessing.ipynb
+
+│   ├── feature_engineering.ipynb
+
+│   ├── model_training.ipynb
+│
+├── sql/
+
+│   ├── database_schema.sql
+│
+├── powerbi/
+
+│   ├── retail_forecasting_dashboard.pbix
+│
+├── README.md
