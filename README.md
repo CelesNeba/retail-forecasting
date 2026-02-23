@@ -170,3 +170,10 @@ retail-sales-forecasting/
 │
 
 ├── README.md
+
+
+
+
+## 🖥️ Dashboard screenshot
+
+![Retail Forecast Dashboard](https://github.com/CelesNeba/retail-forecasting/blob/main/Retail%20forecast%20dashboard%20screenshot.PNG)
