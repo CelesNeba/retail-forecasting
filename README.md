@@ -1,50 +1,66 @@
-# Retail sales forecasting & inventory intelligence system
+## Rossmann retail sales forecasting & business intelligence dashboard
 
-1️⃣ Project overview
+#### 1️⃣ Project overview
 
-This project presents a complete end-to-end retail sales forecasting solution built using machine learning and business intelligence tools.
+This project presents a complete end-to-end retail sales forecasting solution built using machine learning, SQL, and Power BI.
 
-Using historical sales data from the Rossmann dataset, I developed an XGBoost forecasting model to predict daily store-level sales and evaluated its performance through interactive Power BI dashboards.
+The objective is to accurately predict daily store-level sales and transform those forecasts into actionable business insights through an executive dashboard.
 
-The project demonstrates a production-style workflow — from raw data preprocessing to database storage and executive-level reporting.
+The project demonstrates a production-style data workflow, including:
 
-2️⃣ Problem statement
+- Data cleaning and preprocessing
 
-Retail businesses depend heavily on accurate sales forecasts for:
+- Feature engineering
 
-- Inventory planning
+- Machine learning forecasting (XGBoost)
 
-- Workforce allocation
+- Database integration (MySQL)
 
-- Promotion planning
+- Interactive business intelligence dashboard (Power BI)
 
-- Revenue forecasting
 
-- Inaccurate forecasts can lead to:
+#### 2️⃣ Problem statement
 
-- Stockouts
+Retail businesses must accurately forecast sales to optimize:
 
-- Overstocking
+- Inventory management
 
-- Lost revenue
+- Staffing
 
-- Increased operational costs
+- Promotions
 
-The challenge of this project is to build a robust forecasting model capable of predicting daily sales across multiple stores while evaluating model performance transparently.
+- Revenue planning
 
-3️⃣ Business questions to answer
+- Poor forecasts can result in:
 
-This project will answer the following key business questions:
+- Overstocking (increased holding costs)
 
-1. How accurately can we forecast daily sales per store?
+- Stockouts (lost sales and dissatisfied customers)
 
-2. Which stores show higher forecasting error?
+- Inefficient resource allocation
 
-3. Is the model systematically over-forecasting or under-forecasting?
+The challenge is to build a reliable forecasting model that captures seasonality, promotions, and store-level variations.
 
-4. How is forecast error distributed across time?
 
-5. What is the overall forecast accuracy across the portfolio?
+
+
+#### 3️⃣ Business questions
+
+This project answers key strategic and operational questions:
+
+- What is the overall forecast accuracy across all stores?
+
+- Which stores have the highest forecast error?
+
+- How do actual sales compare to predicted sales over time?
+
+- How do promotions impact sales performance?
+
+- Where should management focus corrective action?
+
+
+
+
 
 4️⃣ Project goal & expected outcome
 
@@ -177,3 +193,56 @@ retail-sales-forecasting/
 ## 🖥️ Dashboard screenshot
 
 ![Retail Forecast Dashboard](https://github.com/CelesNeba/retail-forecasting/blob/main/Retail%20forecast%20dashboard%20screenshot.PNG)
+
+
+
+###  Recommendations to stakeholders
+
+### Based on the analysis:
+
+ #### 1. Monitor high-error stores
+
+- Focus operational review on stores with higher forecast error to identify anomalies.
+
+####  2. Improve promotional strategy
+
+Promotional periods significantly influence sales patterns. Integrating dynamic promotion variables can further reduce forecast error.
+
+#### 3. Implement rolling forecast updates
+
+- Adopt continuous re-forecasting during peak seasons to improve accuracy.
+
+#### 4. Leverage dashboard for operational planning
+
+- Use forecast vs actual comparison daily for:
+
+1. Inventory planning
+
+2. Workforce scheduling
+
+3. Revenue projection
+
+#### This enables proactive decision-making rather than reactive management.
+
+
+
+
+## Author
+
+Celestine Neba
+ETL, Data Engineering & Analytics
+BSc in Computer Science
+
+#### About the Author
+
+I am a data engineer and analyst with experience in building fully integrated data solutions, including:
+
+- Data cleaning & transformation
+
+- Database architecture & management
+
+- Machine learning forecasting
+
+- Business intelligence dashboard development
+
+#### This project demonstrates a complete production-style data workflow from raw data ingestion to executive-level analytics visualization.
