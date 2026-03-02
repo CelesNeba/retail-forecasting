@@ -190,6 +190,22 @@ retail-sales-forecasting/
 
 
 
+###  Explore the full project code
+
+To review the complete implementation and technical logic behind this project, please navigate through the project folders located at the top of this repository.
+
+Each folder contains structured components of the end-to-end workflow, including:
+
+- Data preprocessing and feature engineering
+
+- Machine learning model training (XGBoost)
+
+- SQL database scripts
+
+- Forecast storage logic
+
+- Power BI dashboard development
+
 ## 🖥️ Dashboard screenshot
 
 ![Retail Forecast Dashboard](https://github.com/CelesNeba/retail-forecasting/blob/main/Retail%20forecast%20dashboard%20screenshot.PNG)
